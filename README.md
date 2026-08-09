@@ -1,6 +1,6 @@
 # Clemens Scherzer Portfolio
 
-Welcome to my portfolio repository! I am a rising Junior at Yale studying Mechanical engineering. Below are links to my resume, selected projects, and some pictures/videos of other work. Several
+Welcome to my portfolio repository! I am a rising Junior at Yale studying Mechanical engineering, currently working at SpaceX as a Booster Structural Design Intern. Below are links to my resume, selected projects, and some pictures/videos of other work.
 
 ## Resume and Presentations
 - [Resume](ClemensScherzerResume.pdf)
