@@ -71,6 +71,14 @@ main {
   animation-delay: 31s;
 }
 
+.background-slideshow img:nth-child(-n+3) {
+  transform: translateX(-96px);
+}
+
+.background-slideshow img:nth-child(-n+4) {
+  filter: brightness(0.73) saturate(0.82);
+}
+
 @keyframes background-slide {
   0% {
     opacity: 0;
@@ -309,5 +317,9 @@ footer p {
 
   .thumbnail-grid {
     grid-template-columns: 1fr;
+  }
+
+  .background-slideshow img:nth-child(-n+3) {
+    transform: translateX(-36px);
   }
 }
