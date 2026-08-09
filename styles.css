@@ -71,6 +71,12 @@ h1 {
   font-size: 0.94rem;
 }
 
+.contact-type {
+  margin-left: -4px;
+  color: #6e7781;
+  font-size: 0.7rem;
+}
+
 section {
   padding: 32px 0 22px;
   border-bottom: 1px solid #d8dee4;
@@ -107,9 +113,8 @@ li {
 }
 
 a {
-  color: #0969da;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
+  color: #1f2328;
+  text-decoration: none;
 }
 
 a:hover {
@@ -173,7 +178,7 @@ a:focus-visible {
 }
 
 .thumbnail-grid a:hover {
-  color: #0969da;
+  color: #bc4c00;
   border-color: #8c959f;
 }
 
@@ -187,11 +192,20 @@ a:focus-visible {
 }
 
 .thumbnail-grid span {
-  display: block;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 14px;
   padding: 11px 12px 12px;
   font-size: 0.92rem;
   font-weight: 600;
   line-height: 1.35;
+}
+
+.thumbnail-grid small {
+  color: #6e7781;
+  font-size: 0.78rem;
+  font-weight: 400;
 }
 
 footer {
