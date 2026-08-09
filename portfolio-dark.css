@@ -75,6 +75,10 @@ main {
   transform: translateX(-96px);
 }
 
+.background-slideshow img:nth-child(2) {
+  transform: translateX(-192px);
+}
+
 .background-slideshow img:nth-child(-n+4) {
   filter: brightness(0.73) saturate(0.82);
 }
@@ -321,5 +325,9 @@ footer p {
 
   .background-slideshow img:nth-child(-n+3) {
     transform: translateX(-36px);
+  }
+
+  .background-slideshow img:nth-child(2) {
+    transform: translateX(-72px);
   }
 }
