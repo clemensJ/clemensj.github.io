@@ -12,4 +12,4 @@ Welcome to my portfolio repository. Below are links to my resume, selected proje
 ## Additional Files
 
 - [VTOL MVP Presentation](VTOL_mvp_Presentation_09_18_25.pdf)
-- [Yale Jet PDR Selected Slides](Yale_Jet_PDR_Select_Slides_05_26.pdf)
+- [Yale Jet CDR Selected Slides](ProjectJet_Docs/Select_CDR_slides.pdf)
