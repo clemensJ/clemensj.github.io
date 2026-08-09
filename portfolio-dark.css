@@ -204,9 +204,9 @@ a:focus-visible {
 }
 
 .primary-links li {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: baseline;
-  justify-content: space-between;
   gap: 20px;
   margin: 0;
   padding: 12px 0;
@@ -221,9 +221,50 @@ a:focus-visible {
   font-weight: 600;
 }
 
-.primary-links span {
+.primary-links li > span {
   color: #8b949e;
   font-size: 0.78rem;
+}
+
+.primary-links .patent-note {
+  color: #8b949e;
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.section-heading-block h2 {
+  margin-bottom: 0;
+}
+
+.section-description,
+.link-description {
+  max-height: 0;
+  margin: 0;
+  overflow: hidden;
+  color: #b7c0ca;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.55;
+  opacity: 0;
+  transition: max-height 350ms ease, margin 350ms ease, opacity 220ms ease;
+}
+
+.section-heading-block:has(.section-link:hover) .section-description,
+.section-heading-block:focus-within .section-description {
+  max-height: 24rem;
+  margin: 10px 0 18px;
+  opacity: 1;
+}
+
+.primary-links .link-description {
+  grid-column: 1 / -1;
+}
+
+.primary-links .has-description:has(> a:hover) .link-description,
+.primary-links .has-description:focus-within .link-description {
+  max-height: 14rem;
+  margin-top: 8px;
+  opacity: 1;
 }
 
 .thumbnail-grid {
@@ -280,6 +321,17 @@ a:focus-visible {
   font-weight: 400;
 }
 
+.thumbnail-grid .link-description {
+  padding: 0 12px;
+}
+
+.thumbnail-grid .has-description:hover .link-description,
+.thumbnail-grid .has-description:focus .link-description {
+  max-height: 18rem;
+  padding-bottom: 12px;
+  opacity: 1;
+}
+
 footer {
   padding-top: 28px;
   color: #8b949e;
@@ -296,8 +348,34 @@ footer p {
     animation: none;
   }
 
+  .section-description,
+  .link-description {
+    transition: none;
+  }
+
   .background-slideshow img:first-child {
     opacity: 1;
+  }
+}
+
+@media (hover: none) {
+  .section-description,
+  .primary-links .link-description,
+  .thumbnail-grid .link-description {
+    max-height: none;
+    opacity: 1;
+  }
+
+  .section-description {
+    margin: 10px 0 18px;
+  }
+
+  .primary-links .link-description {
+    margin-top: 8px;
+  }
+
+  .thumbnail-grid .link-description {
+    padding-bottom: 12px;
   }
 }
 

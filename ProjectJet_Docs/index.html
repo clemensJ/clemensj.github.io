@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Yale Project Jet files from Clemens Scherzer's engineering portfolio.">
-    <title>Yale Project Jet | Clemens Scherzer</title>
-    <link rel="stylesheet" href="../portfolio-dark.css?v=4">
+    <meta name="description" content="Yale Project Jet - The Hunt for Supersonic flight, led by Clemens Scherzer.">
+    <title>Yale Project Jet - The Hunt for Supersonic flight | Clemens Scherzer</title>
+    <link rel="stylesheet" href="../portfolio-dark.css?v=5">
   </head>
   <body>
     <main class="subpage">
@@ -15,34 +15,45 @@
 
       <header>
         <p class="eyebrow">Project Files</p>
-        <h1>Yale Project Jet</h1>
-        <p class="intro">Presentations, analysis, code, and project images.</p>
+        <h1>Yale Project Jet - The Hunt for Supersonic flight</h1>
+        <p class="intro">As Project Lead of Yale Project Jet, I lead the development of a high speed air-breathing UAV, with the lofty goal of breaking the sound barrier. I own the entire system, from airframe to engine. In the club's inaugural year we built a subscale airframe demonstrator and compressor prototypes, and held reviews with industry professionals from RTX. This year, we are sprinting towards complete engine build, static fire, and full scale airframe construction.</p>
       </header>
 
+      <section aria-labelledby="jet-review">
+        <h2 id="jet-review">Design Review</h2>
+        <ul class="primary-links">
+          <li class="has-description">
+            <a href="Select_CDR_slides.pdf" target="_blank">Demonstrator and Compressor CDR Highlights</a><span>PDF</span>
+            <p class="link-description">As presented to turbomachinery experts from RTX.</p>
+          </li>
+        </ul>
+      </section>
+
       <section aria-labelledby="jet-images">
-        <h2 id="jet-images">Images</h2>
+        <h2 id="jet-images">Demonstrator Images</h2>
         <ul class="thumbnail-grid">
           <li>
-            <a href="Rev2_Demonstrator.jpeg" target="_blank">
-              <img src="thumbnails/Rev2_Demonstrator.webp" alt="Yale Project Jet Rev. 2 demonstrator aircraft" loading="lazy">
-              <span>Rev. 2 Demonstrator <small>JPEG</small></span>
+            <a class="has-description" href="Before_Crash.jpeg" target="_blank">
+              <img src="thumbnails/Before_Crash.webp" alt="Yale Project Jet aircraft at a field test" loading="lazy">
+              <span>Field Test <small>JPEG</small></span>
+              <p class="link-description">Picture of the Rev. 1 Demonstrator before launch; unfortunately, later-than-anticipated rotation and release and tall grass led to catastrophic wingtip strikes as the vehicle began to lift off. A new raised launch rail is completed and will be used to launch Rev. 2.</p>
             </a>
           </li>
           <li>
-            <a href="Before_Crash.jpeg" target="_blank">
-              <img src="thumbnails/Before_Crash.webp" alt="Yale Project Jet aircraft at a field test" loading="lazy">
-              <span>Field Test <small>JPEG</small></span>
+            <a class="has-description" href="Rev2_Demonstrator.jpeg" target="_blank">
+              <img src="thumbnails/Rev2_Demonstrator.webp" alt="Yale Project Jet Rev. 2 demonstrator aircraft" loading="lazy">
+              <span>Rev. 2 Demonstrator <small>JPEG</small></span>
+              <p class="link-description">After Rev. 1's failure, we redesigned the launch hook and built a new aircraft in 72 hours, with tests planned for the first week of classes in September 2026.</p>
             </a>
           </li>
         </ul>
       </section>
 
-      <section aria-labelledby="jet-documents">
-        <h2 id="jet-documents">Documents and Code</h2>
+      <section aria-labelledby="jet-analysis">
+        <h2 id="jet-analysis">Analysis and Code</h2>
         <ul class="primary-links">
-          <li><a href="Select_CDR_slides.pdf" target="_blank">Selected CDR Slides</a><span>PDF</span></li>
+          <li><a href="root_tip_axial_stage_uniform_dehallers.py" target="_blank">Meanline Compressor Geometry Solver</a><span>Python</span></li>
           <li><a href="SolverExplanation.pdf" target="_blank">Solver Explanation</a><span>PDF</span></li>
-          <li><a href="root_tip_axial_stage_uniform_dehallers.py" target="_blank">Axial Stage Solver</a><span>Python</span></li>
         </ul>
       </section>
 
