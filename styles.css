@@ -21,6 +21,13 @@ main {
   padding: 72px 0 48px;
 }
 
+.site-banner {
+  display: block;
+  width: min(100%, 280px);
+  height: auto;
+  margin: 0 0 28px;
+}
+
 header {
   padding-bottom: 34px;
   border-bottom: 1px solid #d8dee4;
