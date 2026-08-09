@@ -23,7 +23,7 @@ main {
 
 .site-banner {
   display: block;
-  width: min(100%, 280px);
+  width: 100%;
   height: auto;
   margin: 0 0 28px;
 }
