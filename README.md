@@ -12,4 +12,6 @@ Welcome to my portfolio repository! I am a rising Junior at Yale studying Mechan
 - [Yale Project Jet](ProjectJet_Docs/)
 - [Miscellaneous Images and Videos](Misc_Im_Vids/)
 
+<img width="1014" height="202" alt="Screenshot 2026-08-08 at 7 25 47 PM" src="https://github.com/user-attachments/assets/65dcc9c6-46b1-42ac-bcc4-967baca05b98" />
+
 
